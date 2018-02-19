@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.8854748603351955" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="476.0" prefWidth="261.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <items>
+    <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="397.0" prefWidth="286.0" stylesheets="@../static/css/style.css">
+         <children>
+            <Label fx:id="lbl1" layoutX="14.0" layoutY="21.0" text="true" />
+            <Label fx:id="lblOper" layoutX="53.0" layoutY="21.0" text="V" />
+            <Label fx:id="lbl2" layoutX="83.0" layoutY="21.0" text="false" />
+            <Button fx:id="btnRez" layoutX="137.0" layoutY="214.0" mnemonicParsing="false" onAction="#onClickRez" prefHeight="37.0" prefWidth="101.0" styleClass="buttonClean" text="=" />
+            <Button fx:id="btnNull" layoutX="132.0" layoutY="68.0" mnemonicParsing="false" onAction="#onClickNull" prefHeight="37.0" prefWidth="52.0" styleClass="buttonValue" text="Null" />
+            <Button fx:id="btnTrue" layoutX="15.0" layoutY="68.0" mnemonicParsing="false" onAction="#onClickTrue" prefHeight="37.0" prefWidth="52.0" styleClass="buttonValue" stylesheets="@../static/css/style.css" text="True">
+               <font>
+                  <Font name="Abyssinica SIL" size="14.0" />
+               </font></Button>
+            <Button fx:id="btnFalse" layoutX="73.0" layoutY="68.0" mnemonicParsing="false" onAction="#onClickFalse" prefHeight="37.0" prefWidth="52.0" styleClass="buttonValue" text="False" />
+            <Button fx:id="btnConjunction" layoutX="16.0" layoutY="112.0" mnemonicParsing="false" onAction="#onClickbtnConjunction" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="^" />
+            <Button fx:id="btnDisunction" layoutX="73.0" layoutY="112.0" mnemonicParsing="false" onAction="#onClickBtnDisunction" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="V" />
+            <Button fx:id="btnApdate" layoutX="190.0" layoutY="68.0" mnemonicParsing="false" onAction="#onClickBtnApdate" prefHeight="37.0" prefWidth="52.0" styleClass="buttonClean" text="C" />
+            <Button layoutX="133.0" layoutY="112.0" mnemonicParsing="false" onAction="#onClickBtnEquivalence" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="~" />
+            <Button layoutX="16.0" layoutY="163.0" mnemonicParsing="false" onAction="#onClickBtnModTwo" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="(+)" />
+            <Button layoutX="73.0" layoutY="163.0" mnemonicParsing="false" onAction="#onClickBtnImplication" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="→" />
+            <Button layoutX="130.0" layoutY="163.0" mnemonicParsing="false" onAction="#onClickBtnZapImplication" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="!→" />
+            <Button layoutX="190.0" layoutY="163.0" mnemonicParsing="false" onAction="#onClickBtnObernImplication" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="←" />
+            <Button layoutX="17.0" layoutY="212.0" mnemonicParsing="false" onAction="#onClickBtnZapOberImplication" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="!←" />
+            <Button layoutX="191.0" layoutY="112.0" mnemonicParsing="false" onAction="#onClickBtnBarcodeScheffer" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="|" />
+            <Button layoutX="74.0" layoutY="212.0" mnemonicParsing="false" onAction="#onClickBtnArrowPier" prefHeight="41.0" prefWidth="52.0" styleClass="buttonBtnOperSmol" text="↓" />
+            <Button layoutX="19.0" layoutY="268.0" mnemonicParsing="false" onAction="#onClickBtnConstFalse" prefHeight="35.0" prefWidth="101.0" styleClass="buttonBtnOperBig" text="(const 0)" />
+            <Button layoutX="141.0" layoutY="268.0" mnemonicParsing="false" onAction="#onClickBtnConstTrue" prefHeight="35.0" prefWidth="101.0" styleClass="buttonBtnOperBig" text="(const 1)" />
+            <Button layoutX="19.0" layoutY="313.0" mnemonicParsing="false" onAction="#onClickBtnRepeatSecondOperand" prefHeight="35.0" prefWidth="101.0" styleClass="buttonBtnOperBig" text="(repeat second)" />
+            <Button layoutX="20.0" layoutY="358.0" mnemonicParsing="false" onAction="#onClickBtnRepeatFirstOperand" prefHeight="35.0" prefWidth="101.0" styleClass="buttonBtnOperBig" text="(repeat first)" />
+            <Button layoutX="140.0" layoutY="313.0" mnemonicParsing="false" onAction="#onClickBtnNotSecondOperand" prefHeight="35.0" prefWidth="101.0" styleClass="buttonBtnOperBig" text="(not second)" />
+            <Button layoutX="140.0" layoutY="358.0" mnemonicParsing="false" onAction="#onClickBtnNotFirstOperand" prefHeight="35.0" prefWidth="101.0" styleClass="buttonBtnOperBig" text="(not first)" />
+            <Label layoutX="129.0" layoutY="22.0" text="=" />
+            <Label fx:id="lblRezOper" layoutX="12.0" layoutY="21.0" prefHeight="35.0" prefWidth="226.0" styleClass="lblRez" />
+         </children></AnchorPane>
+    <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="286.0">
+         <children>
+            <TextArea fx:id="textAreaHistory" layoutX="43.0" layoutY="-37.0" prefHeight="140.0" prefWidth="286.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

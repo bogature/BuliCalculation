@@ -1,0 +1,116 @@
+
+.buttonValue {
+    -fx-background-color: black;
+    -fx-border-color: red;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-padding: 0;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+}
+
+.buttonValue:hover {
+    -fx-background-color: black;
+    -fx-border-color: red;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 0;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 18px;
+    -fx-font-style: normal;
+}
+
+.buttonClean {
+    -fx-background-color: #ff9e1e;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0, 0, 1;
+    -fx-background-radius: 10;
+    -fx-padding: 0;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+}
+
+.buttonClean:hover {
+    -fx-background-color: #ff9e1e;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 0;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 18px;
+    -fx-font-style: normal;
+}
+
+.buttonBtnOperSmol {
+    -fx-background-color: black;
+    -fx-border-color: honeydew;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+}
+
+.buttonBtnOperSmol:hover {
+    -fx-background-color: black;
+    -fx-border-color: honeydew;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 19px;
+    -fx-font-style: normal;
+}
+
+.buttonBtnOperBig{
+    -fx-background-color: black;
+    -fx-border-color: honeydew;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 10px;
+    -fx-font-style: normal;
+}
+
+.buttonBtnOperBig:hover{
+    -fx-background-color: black;
+    -fx-border-color: honeydew;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+}
+
+
+.lblRez {
+    -fx-background-color: black;
+    -fx-border-color: honeydew;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-text-fill: honeydew;
+    -fx-font-size: 12px;
+    -fx-font-style: normal;
+}
