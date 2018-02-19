@@ -16,13 +16,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-
-
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Boolean calculator");
         primaryStage.setScene(new Scene(root));
         primaryStage.getIcons().add(new Image("static/css/icon.png"));
         primaryStage.show();
+
 
     }
 
